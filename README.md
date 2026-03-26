@@ -1,0 +1,2 @@
+# condiciones
+if, for, while
