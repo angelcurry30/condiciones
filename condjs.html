@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Uso de if, for y while</title>
+</head>
+<body>
+
+<script>
+
+// ----------- FOR -----------
+for (let i = 1; i <= 2; i++) {
+
+    let edad = prompt("FOR - Iteración " + i + " - Ingresa tu edad:");
+    edad = Number(edad);
+
+    if (edad >= 18) {
+        alert("FOR: Eres mayor de edad");
+    } else {
+        alert("FOR: Eres menor de edad");
+    }
+
+}
+
+// ----------- WHILE -----------
+let j = 1;
+
+while (j <= 2) {
+
+    let edad = prompt("WHILE - Iteración " + j + " - Ingresa tu edad:");
+    edad = Number(edad);
+
+    if (edad >= 18) {
+        alert("WHILE: Eres mayor de edad");
+    } else {
+        alert("WHILE: Eres menor de edad");
+    }
+
+    j++;
+}
+
+</script>
+
+</body>
+</html>
